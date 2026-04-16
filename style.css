@@ -66,3 +66,13 @@ nav a {
 #header-section a:hover {
     color: #FFC72C; /* Changes to Warriors Gold on hover */
 }
+
+.center-content {
+    text-align: center;
+    margin: 20px 0; /* This adds some breathing room above and below the video */
+}
+
+/* This ensures the iframe itself behaves like a block and stays centered */
+.center-content iframe {
+    display: inline-block;
+}
