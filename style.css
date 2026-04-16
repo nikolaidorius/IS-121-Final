@@ -1,0 +1,68 @@
+/* Custom Background */
+body {
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Div 1: Header styling */
+#header-section {
+    background-color: #1D428A; /* Warriors Blue */
+    color: #FFC72C; /* Warriors Gold - Font Color Requirement */
+    padding: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font Family Requirement */
+}
+
+/* Div 2: Main Content block */
+#content-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Div 3: Stats block */
+#stats-table {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    border-top: 2px solid #1D428A;
+}
+
+/* Additional Style Definitions */
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.curry-img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 5px solid #FFC72C;
+}
+
+nav {
+    padding: 10px;
+    background: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Style for the "Jump to Tableau" anchor link */
+#header-section a {
+    color: #ffffff; /* Change this hex code to your preferred color (e.g., #ffffff for white) */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Optional: Change color when you hover over it */
+#header-section a:hover {
+    color: #FFC72C; /* Changes to Warriors Gold on hover */
+}
